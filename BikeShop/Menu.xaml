@@ -14,13 +14,13 @@
         <StackPanel Orientation="Horizontal">
 
             <!-- Bouton Product -->
-            <Button Margin="20 0" Content="Products" Height="80" Width="80" Click="Button_Click_2"/>
+            <Button Style="{StaticResource MenuButton}" Background="Magenta" Margin="20 0" Content="Products" Height="80" Width="80" Click="Button_Click_2"/>
 
             <!-- Bouton Live Support -->
-            <Button Margin="0, 0, 20, 0" Content="Live Support" Height="80" Width="80" Click="Button_Click_1" />
+            <Button Style="{StaticResource MenuButton}" Background="Orange" Margin="0, 0, 20, 0" Content="Live Support" Height="80" Width="80" Click="Button_Click_1" />
 
             <!-- Bouton Email Support -->
-            <Button Content="Email Support" Height="80" Width="80" Click="Button_Click"/>
+            <Button Style="{StaticResource MenuButton}" Background="Violet" Content="Email Support" Height="80" Width="80" Click="Button_Click"/>
 
         </StackPanel>
 
@@ -30,6 +30,6 @@
                        Margin="0, 20, 0, 0"
                        FontWeight="Bold"
                        FontSize="32"
-                       FontStyle="Italic"/>
+                       FontStyle="Italic" RenderTransformOrigin="0.5,0.5"/>
     </StackPanel>
 </Page>
